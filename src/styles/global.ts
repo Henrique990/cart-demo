@@ -8,7 +8,6 @@ export const globalStyles = globalCss({
 
   body: {
     width: '100vh',
-    maxWidth: '100vh',
     backgroundColor: '$gray900',
     color: '$gray100',
     alignItems: 'center',

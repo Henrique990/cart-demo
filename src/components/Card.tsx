@@ -65,7 +65,7 @@ const Card: React.FC<Props> = (props) => {
                     {props.price} <input type="number" value={quantity} onChange={handleChange} />
                 </p>
                 <p>{props.description}</p>
-                <p>Soma total das quantidades: {totalQuantity}</p>
+                <p>Soma total das quantidades: {quantity}</p>
                 <button type="button">Add Cart</button>
                 <a href="#">Learn More</a>
             </div>
